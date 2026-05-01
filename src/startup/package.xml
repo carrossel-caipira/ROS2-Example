@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>startup</name>
+  <version>0.0.0</version>
+  <description>Package that launches all nodes</description>
+  <maintainer email="arthurarg1@gmail.com">Arthur Alves</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>sensor_comunication</exec_depend>
+  <exec_depend>telemetry_filter</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
